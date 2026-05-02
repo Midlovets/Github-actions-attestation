@@ -1,5 +1,6 @@
 from django.test import TestCase
 
 
-def test_example_passes():
-    assert True
+class SmokeTest(TestCase):
+    def test_example_passes(self):
+        self.assertTrue(True)
